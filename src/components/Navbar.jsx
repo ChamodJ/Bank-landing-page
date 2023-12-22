@@ -2,11 +2,11 @@ import React from 'react'
 
 import { useState } from 'react'
 import {close, logo, menu} from '../assets'
-import {navLinks} from '../constants'
+import { navLinks } from '../constants'
 
 const Navbar = () => {
   return (
-    <nav className='w-full flex py-6 justify-between items-center navbar bg-slate-50'>Navbar</nav>
+    <nav className='w-full flex py-6 justify-between items-center navbar'>Navbar</nav>
   )
 }
 
